@@ -1,0 +1,37 @@
+name: alphabeta
+description: "AlphaBeta TEST Project"
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.1.1
+  bloc: ^9.1.0
+  flutter_bloc: ^9.1.1
+  flutter_svg: ^2.2.3
+  easy_localization: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/homes/
+    - assets/icons/
+    - assets/agents/
+    - assets/translations/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
